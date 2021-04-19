@@ -22,4 +22,16 @@ public class Contact {
         this.phoneNumber = phoneNumber;
     }
 
+    public void displayContact(Contact passedContact) {
+
+        System.out.printf("First Name : %s\n",passedContact.firstName);
+        System.out.printf("Last Name : %s\n",passedContact.lastName);
+        System.out.printf("Address : %s\n",passedContact.address);
+        System.out.printf("City : %s\n",passedContact.city);
+        System.out.printf("State : %s\n",passedContact.state);
+        System.out.printf("Email Address : %s\n",passedContact.email);
+        System.out.printf("Email Zip Code : %d\n",passedContact.zipCode);
+        System.out.printf("Email Zip Code : %d\n",passedContact.phoneNumber);
+
+    }
 }
